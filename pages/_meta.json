@@ -1,0 +1,17 @@
+{
+  "index": {
+    "title": "Introduction",
+    "type": "page",
+    "display": "hidden"
+  },
+  "docs": {
+    "type": "page",
+    "title": "Docs"
+  },
+  "github": {
+    "type": "page",
+    "title": "GitHub ↗",
+    "href": "https://github.com/pawntown/pawnlink.docs",
+    "newWindow": true
+  }
+}

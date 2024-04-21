@@ -1,7 +1,16 @@
+import IntroSection from "./components/intro-section";
+
 export default {
   logo: <span>Pawnlink Documentation</span>,
   project: {
-    link: "https://github.com/pawntown/pawnlink-docs",
+    link: "https://github.com/pawntown/pawnlink.docs",
   },
-  // ... other theme options
+  sidebar: {
+    autoCollapse: true,
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
+  },
+  components: {
+    IntroSection: IntroSection,
+  },
 };
