@@ -5,6 +5,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,md,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,md,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -12,7 +13,9 @@ module.exports = {
         foreground: "#FEFEFE",
         divider: "#A3A3A3",
         content1: "#1D1D1D",
+        content1d: "#f2f2f2",
         content2: "#262626",
+        content2d: "#ededed",
         primary: {
           DEFAULT: "#C38FFF",
           foreground: "#FFFFFF",

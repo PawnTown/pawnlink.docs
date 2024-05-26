@@ -6,7 +6,7 @@ export default function IntroSection() {
       <div className="mx-8 flex justify-center items-center">
         <Link
           href="#"
-          className="flex transition-all ease-out items-center justify-start pr-4 gap-4 w-80 rounded-full border-[1px] !border-content2 p-1 bg-gradient-to-r to-content1/70 from-content1 hover:pr-2"
+          className="flex transition-all ease-out items-center justify-start pr-4 gap-4 w-80 rounded-full border p-1 bg-gradient-to-r to-content1d/70 from-content1d border-content2d hover:pr-2 dark:border-content2 dark:to-content1/70 dark:from-content1"
         >
           <span className="text-xs font-bold text-green-400/80 border-green-400/80 border-[1px] bg-green-400/10 px-2 py-0.5 rounded-full">
             BETA
@@ -21,7 +21,7 @@ export default function IntroSection() {
           >
             <path
               d="m18.707 12.707-3 3a1 1 0 0 1-1.414-1.414L15.586 13H6a1 1 0 0 1 0-2h9.586l-1.293-1.293a1 1 0 0 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414z"
-              className="fill-white"
+              className="fill-gray-700 dark:fill-white"
             />
           </svg>
         </Link>
@@ -42,9 +42,9 @@ export default function IntroSection() {
         <Link
           href="/docs/introduction"
           type="button"
-          className="w-44 py-3 text-center text-md font-semibold !border-2 !bg-content1 !border-content2 rounded-xl hover:!border-primary/70 hover:text-primary"
+          className="w-44 flex gap-2 justify-center py-3 text-center text-md font-semibold border !bg-content2d dark:!bg-content1 dark:!border-content2 rounded-xl transition-all ease-out hover:!border-gray-700 dark:hover:!border-primary/70 dark:hover:text-primary"
         >
-          Quickstart &nbsp; 🚀
+          <span>Quickstart</span>🚀
         </Link>
       </div>
     </section>
