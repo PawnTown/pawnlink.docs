@@ -26,7 +26,7 @@ export default function IntroSection() {
           </svg>
         </Link>
       </div>
-      <h1 className="my-12 text-3xl font-extrabold text-gray-900 text-center dark:text-foreground md:text-5xl lg:text-6xl">
+      <h1 className="mt-20 mb-8 text-3xl font-extrabold text-gray-900 text-center dark:text-foreground md:text-5xl lg:text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-secondary from-primary">
           Link Chessboards
         </span>
