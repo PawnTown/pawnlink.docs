@@ -10,6 +10,11 @@ export default function LiveDemo() {
           Connect with 3 lines of code
         </span>
       </h2>
+      <p className="text-lg text-center mt-4 text-white/30">
+        Effortlessly integrate your users chessboards with just three lines of
+        code. Experience seamless connectivity and enhanced functionality with
+        our intuitive platform.
+      </p>
       <div className="relative pb-24">
         <Image src="/pawnlink.docs/img/editor.svg" width={840} height={400} />
         <div className="absolute bottom-0 right-0 flex flex-col w-72 p-8 rounded-2xl justify-center items-center border bg-gradient-to-br from-content2d/90 to-content2d dark:from-content1/90 dark:to-content1 dark:!border-content2">
