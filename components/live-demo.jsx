@@ -4,8 +4,12 @@ import { PawnLinkProvider, PawnLinkConnect } from "@pawntown/react-pawnlink";
 
 export default function LiveDemo() {
   return (
-    <section className="mt-8">
-      <h2>Less Code, more fun</h2>
+    <section className="mt-28">
+      <h2 className="font-semibold text-4xl text-center">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/20">
+          Connect with 3 lines of code
+        </span>
+      </h2>
       <div className="relative pb-24">
         <Image src="/pawnlink.docs/img/editor.svg" width={840} height={400} />
         <div className="absolute bottom-0 right-0 flex flex-col w-72 p-8 rounded-2xl justify-center items-center border bg-gradient-to-br from-content2d/90 to-content2d dark:from-content1/90 dark:to-content1 dark:!border-content2">
