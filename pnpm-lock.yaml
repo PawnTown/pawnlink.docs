@@ -17,9 +17,6 @@ dependencies:
   nextra-theme-docs:
     specifier: ^2.13.4
     version: 2.13.4(next@14.2.2)(nextra@2.13.4)(react-dom@18.2.0)(react@18.3.1)
-  pawnlink:
-    specifier: link:github.com:PawnTown/pawnlink-js.git
-    version: link:github.com:PawnTown/pawnlink-js.git
   react:
     specifier: ^18.3.1
     version: 18.3.1
