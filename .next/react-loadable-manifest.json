@@ -1,4 +1,10 @@
 {
+  "components/live-demo-lazy.jsx -> ./live-demo": {
+    "id": "components/live-demo-lazy.jsx -> ./live-demo",
+    "files": [
+      "static/chunks/components_live-demo_jsx.js"
+    ]
+  },
   "node_modules/.pnpm/mermaid@10.9.0/node_modules/mermaid/dist/mermaid-f47111a7.js -> ./blockDiagram-91b80b7a.js": {
     "id": "node_modules/.pnpm/mermaid@10.9.0/node_modules/mermaid/dist/mermaid-f47111a7.js -> ./blockDiagram-91b80b7a.js",
     "files": [

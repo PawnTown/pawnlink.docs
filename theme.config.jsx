@@ -1,4 +1,5 @@
 import IntroSection from "./components/intro-section";
+import LiveDemoLazy from "./components/live-demo-lazy";
 
 export default {
   logo: <span>Pawnlink Documentation</span>,
@@ -12,5 +13,6 @@ export default {
   },
   components: {
     IntroSection: IntroSection,
+    LiveDemoLazy: LiveDemoLazy,
   },
 };
