@@ -16,7 +16,11 @@ export default function LiveDemo() {
         our intuitive platform.
       </p>
       <div className="relative pb-24">
-        <Image src="/pawnlink.docs/img/editor.svg" width={840} height={400} />
+        <Image
+          src="/pawnlink.docs/img/editor_dark.png"
+          width={840}
+          height={400}
+        />
         <div className="absolute bottom-0 right-0 flex flex-col w-72 p-8 rounded-2xl justify-center items-center border bg-gradient-to-br from-content2d/90 to-content2d dark:from-content1/90 dark:to-content1 dark:!border-content2">
           <PawnLinkProvider host="link.pawn.town" api-key="TEST-TEST-TEST">
             <PawnLinkConnect
